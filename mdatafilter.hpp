@@ -6,16 +6,6 @@
 
 namespace  mdf {
 
-//弧度-角度互相转换
-template<typename T>
-static T RadianToDegree( T &radian ){
-    return T( radian / EIGEN_PI * 180.0);
-}
-
-template<typename T>
-static T DegreeToRadian( T &degree ){
-    return T( degree / 180.0 * EIGEN_PI);
-}
 
 ////求vector均值
 static double GetVetor1dMean( const std::vector<double>& vector ){
