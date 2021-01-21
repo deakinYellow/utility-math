@@ -5,6 +5,7 @@
 #include <Eigen/Core>
 #include <Eigen/Geometry>  // Eigen 几何模块
 
+
 /**
  * @brief 基于eigen的一些运算
  * @note
@@ -22,7 +23,6 @@ template<typename T>
 static T DegreeToRadian(const T& degree ){
     return T( degree / 180.0 * EIGEN_PI);
 }
-
 
 /**
  * @brief   获取空间两向量夹角大小
